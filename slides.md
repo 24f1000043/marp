@@ -4,6 +4,8 @@ theme: gaia
 class: lead
 paginate: true
 author: 24f1000043@ds.study.iitm.ac.in
+# NEW GLOBAL DIRECTIVE: Adds a consistent footer to all slides
+_footer: 'Product Documentation | Q4 2025'
 style: |
   section {
     font-family: 'Arial', sans-serif;
@@ -14,9 +16,9 @@ style: |
 ---
 
 # Product Documentation Guide
-## Q4 Technical Overview
+## API v2.0 Overview
 
-**Contact:** 24f1000043@ds.study.iitm.ac.in
+Created by: 24f1000043@ds.study.iitm.ac.in
 
 ---
 
