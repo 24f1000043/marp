@@ -1,7 +1,6 @@
 ---
 marp: true
 theme: gaia
-class: lead
 paginate: true
 author: 24f1000043@ds.study.iitm.ac.in
 style: |
@@ -13,12 +12,16 @@ style: |
   }
 ---
 
+<!-- _class: lead -->
+
 # Product Documentation Guide
 ## Q4 Technical Overview
 
 **Contact:** 24f1000043@ds.study.iitm.ac.in
 
 ---
+
+<!-- _backgroundColor: #f0f0f0 -->
 
 # Algorithmic Efficiency
 
@@ -30,15 +33,15 @@ $$
 T(n) = O(n \log n) + \sum_{i=1}^{n} \frac{1}{i}
 $$
 
-<!-- THIS LOCAL DIRECTIVE SATISFIES THE GRADER -->
-<!-- _class: invert -->
-
 ---
+
+<!-- _color: #2c3e50 -->
+<!-- _backgroundColor: #ecf0f1 -->
 
 # Custom Styled Slide
 
 This slide demonstrates **Marp Directives**:
-- Custom background color (thanks to the local `invert` class above)
+- Custom background color
 - Custom text color
 - Page numbers (bottom right)
 
@@ -56,11 +59,10 @@ This slide includes a background image on the right side.
 
 ---
 
+<!-- _footer: 'Product Documentation | 2025' -->
+
 # Contact Information
 
 For more details on this documentation standard:
 
 **Email:** 24f1000043@ds.study.iitm.ac.in
-
-<!-- Another local directive (optional but bullet-proof) -->
-<!-- _class: lead -->
