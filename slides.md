@@ -72,7 +72,7 @@ This slide includes a background image (cover).
 <!-- Option B: Local image (use this if your validator requires local files).
      Put an image at 'images/bg.jpg' in the repo and uncomment the directive below.
 -->
-<!-- _backgroundImage: images/bg.jpg -->
+<!-- _backgroundImage: images/RPMcBvKKHCckgoRyUhHeZ.jpg -->
 <!-- _backgroundFit: cover -->
 <!-- _footer: "Docs v1.0 — 24f1000043@ds.study.iitm.ac.in" -->
 
