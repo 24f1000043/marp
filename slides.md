@@ -10,13 +10,9 @@ paginate: true
 <!-- _footer: 24f1000043@ds.study.iitm.ac.in -->
 
 <style>
-/* custom theme tweaks (local overrides) */
 section {
   font-family: 'Arial', sans-serif;
   line-height: 1.35;
-}
-h1, h2 {
-  letter-spacing: -0.5px;
 }
 code {
   background: #eee;
@@ -60,8 +56,9 @@ This slide demonstrates **Marp Directives** in action:
 
 ---
 
-<!-- _backgroundImage: https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-1.2.1&auto=format&fit=crop&w=1200&q=80 -->
-<!-- _backgroundFit: cover -->
+<!-- Option A: Remote background using Marp inline bg syntax (very explicit) -->
+![bg cover](https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-1.2.1&auto=format&fit=crop&w=1200&q=80)
+
 # Infrastructure
 
 This slide includes a background image (cover).
@@ -72,7 +69,9 @@ This slide includes a background image (cover).
 
 ---
 
+
 <!-- _footer: "Docs v1.0 — 24f1000043@ds.study.iitm.ac.in" -->
+
 # Contact Information
 
 For more details on this documentation standard:
