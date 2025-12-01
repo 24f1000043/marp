@@ -1,18 +1,30 @@
 ---
 marp: true
+title: Product Documentation Guide
+author: 24f1000043@ds.study.iitm.ac.in
 theme: gaia
 paginate: true
-author: 24f1000043@ds.study.iitm.ac.in
-style: |
-  section {
-    font-family: 'Arial', sans-serif;
-  }
-  code {
-    background: #eee;
-  }
 ---
 
 <!-- _class: lead -->
+<!-- _footer: 24f1000043@ds.study.iitm.ac.in -->
+
+<style>
+/* custom theme tweaks (local overrides) */
+section {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.35;
+}
+h1, h2 {
+  letter-spacing: -0.5px;
+}
+code {
+  background: #eee;
+  padding: 0.15rem 0.3rem;
+  border-radius: 4px;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, "Roboto Mono", monospace;
+}
+</style>
 
 # Product Documentation Guide
 ## Q4 Technical Overview
@@ -21,8 +33,7 @@ style: |
 
 ---
 
-<!-- _backgroundColor: #f0f0f0 -->
-
+<!-- _backgroundColor: #f7f9fb -->
 # Algorithmic Efficiency
 
 Our new search indexing uses an optimized sort, reducing latency significantly.
@@ -33,34 +44,35 @@ $$
 T(n) = O(n \log n) + \sum_{i=1}^{n} \frac{1}{i}
 $$
 
+Notes:
+- The harmonic term grows like $O(\log n)$, so overall complexity is $O(n\log n)$ asymptotically.
+
 ---
 
-<!-- _color: #2c3e50 -->
-<!-- _backgroundColor: #ecf0f1 -->
-
+<!-- _class: lead -->
+<!-- _color: #003366 -->
 # Custom Styled Slide
 
-This slide demonstrates **Marp Directives**:
-- Custom background color
-- Custom text color
-- Page numbers (bottom right)
+This slide demonstrates **Marp Directives** in action:
+- Custom background color via directive
+- Custom text color directive
+- Page numbers come from `paginate: true`
 
 ---
 
-![bg right:40%](https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60)
-
+<!-- _backgroundImage: https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-1.2.1&auto=format&fit=crop&w=1200&q=80 -->
+<!-- _backgroundFit: cover -->
 # Infrastructure
 
-This slide includes a background image on the right side.
+This slide includes a background image (cover).
 
-1. **Version Control**: Git-based flow
-2. **CI/CD**: Automated builds
-3. **Format**: Markdown to PDF/HTML
+1. **Version Control**: Git-based flow  
+2. **CI/CD**: Automated builds  
+3. **Format**: Markdown → PDF / HTML / PPTX
 
 ---
 
-<!-- _footer: 'Product Documentation | 2025' -->
-
+<!-- _footer: "Docs v1.0 — 24f1000043@ds.study.iitm.ac.in" -->
 # Contact Information
 
 For more details on this documentation standard:
