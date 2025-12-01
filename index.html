@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <meta name="author" content="24f1000043@ds.study.iitm.ac.in">
+  
+  <title>Quarterly Earnings Report - Q4 2025</title>
+  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.5.0/dist/reveal.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.5.0/dist/theme/white.css">
+  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.5.0/plugin/highlight/monokai.css">
+  
+  <style>
+    .reveal .has-dark-background { background-color: #2c3e50; color: white; }
+    /* Footer for email visibility */
+    .reveal .slides footer {
+      position: absolute; bottom: 1em; left: 1em; font-size: 0.6em; color: #666; z-index: 10;
+    }
+  </style>
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</head>
+<body>
+  <div class="reveal">
+    <div class="slides">
+      
+      <section>
+        <h1>Quarterly Earnings</h1>
+        <h3>24f1000043@ds.study.iitm.ac.in</h3>
+        <p style="display:none;">24f1000043@ds.study.iitm.ac.in</p>
+        
+        <aside class="notes">
+          Welcome stakeholders to the Q4 report. Please mute your microphones.
+        </aside>
+      </section>
+
+      <section data-markdown>
+        <textarea data-template>
+          ## Summary
+          - **Revenue**: $1.2B (↑15%)
+          - **EPS**: $0.45
+
+          Note:
+          Mention the 15% growth was driven by the APAC region expansion.
+        </textarea>
+      </section>
+
+      <section class="has-dark-background">
+        <h2>Key Metrics</h2>
+        <ul>
+          <li class="fragment">Revenue: <strong>15%</strong></li>
+          <li class="fragment highlight-red">Debt: <strong>0.35</strong></li>
+        </ul>
+        
+        <aside class="notes">
+           Click through these metrics slowly. Emphasize the debt reduction.
+        </aside>
+      </section>
+
+      <section>
+        <h2>Analysis Code</h2>
+        <pre><code class="language-python" data-trim data-line-numbers>
+import pandas as pd
+import numpy as np
+
+# Load quarterly data
+df = pd.read_csv('earnings_q4.csv')
+
+# Calculate ROI
+print(f"ROI: {df['roi'].mean()}%")
+        </code></pre>
+        
+        <aside class="notes">
+           This Python code demonstrates our automated reporting pipeline using Pandas.
+        </aside>
+      </section>
+
+      <section>
+        <h2>Formulas</h2>
+        \[ \text{ROI} = \left( \frac{\text{Net Profit}}{\text{Investment}} \right) \times 100 \]
+      </section>
+
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.5.0/dist/reveal.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.5.0/plugin/markdown/markdown.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.5.0/plugin/highlight/highlight.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.5.0/plugin/math/math.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.5.0/plugin/notes/notes.js"></script>
+  
+  <script>
+    Reveal.initialize({
+      hash: true,
+      // Ensure RevealNotes is included here!
+      plugins: [RevealMarkdown, RevealHighlight, RevealMath, RevealNotes]
+    });
+  </script>
+</body>
+</html>
